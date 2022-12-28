@@ -1,7 +1,8 @@
-package com.example.bank_card
+package com.example.bank_card.Presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.bank_card.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

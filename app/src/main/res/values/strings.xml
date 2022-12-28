@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Bank_Card</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="country">country</string>
+    <string name="bank">bank</string>
+    <string name="url">url</string>
+    <string name="phone_number">phone_number</string>
+    <string name="city">city</string>
+    <string name="brand">brand</string>
+    <string name="type">type</string>
+    <string name="scheme">scheme</string>
+    <string name="bin">bin</string>
+    <string name="search_history">Search history</string>
 </resources>
