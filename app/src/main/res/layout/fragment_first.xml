@@ -22,25 +22,11 @@
         app:lottie_loop="false"
         app:lottie_rawRes="@raw/lotti_card" />
 
-    <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/edit_text"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/bin"
-        android:imeOptions="actionDone"
-        android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.068" />
-
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/history_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="44dp"
+        android:layout_height="35dp"
         android:background="@color/white"
         android:src="@drawable/ic_baseline_history_edu_24"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,7 +34,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_text"
-        app:layout_constraintVertical_bias="0.955" />
+        app:layout_constraintVertical_bias="0.976" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/appCompatTextView"
@@ -136,14 +122,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/country"
-        android:textSize="18sp"
         android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintHorizontal_bias="0.022"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appCompatTextView7"
-        app:layout_constraintVertical_bias="0.073" />
+        app:layout_constraintVertical_bias="0.107" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/country"
@@ -167,14 +153,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bank"
-        android:textSize="18sp"
         android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_text"
         app:layout_constraintVertical_bias="0.045" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView3"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edit_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/bin"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/bank_name"
@@ -227,14 +241,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/phone_number"
-        android:textSize="18sp"
         android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appCompatTextView8"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintVertical_bias="0.143" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/phone_number"
@@ -249,20 +263,6 @@
         app:layout_constraintStart_toEndOf="@+id/appCompatTextView9"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.695" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/appCompatTextView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/city"
-        android:textSize="18sp"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.021"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView3"
-        app:layout_constraintVertical_bias="0.053" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/city"

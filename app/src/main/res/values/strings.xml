@@ -2,14 +2,14 @@
     <string name="app_name">Bank_Card</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="country">country</string>
-    <string name="bank">bank</string>
-    <string name="url">url</string>
-    <string name="phone_number">phone_number</string>
-    <string name="city">city</string>
-    <string name="brand">brand</string>
-    <string name="type">type</string>
-    <string name="scheme">scheme</string>
-    <string name="bin">bin</string>
+    <string name="country">Country</string>
+    <string name="bank">Bank</string>
+    <string name="url">Url</string>
+    <string name="phone_number">Phone number</string>
+    <string name="city">City</string>
+    <string name="brand">Brand</string>
+    <string name="type">Type</string>
+    <string name="scheme">Scheme</string>
+    <string name="bin">Enter Bin Card</string>
     <string name="search_history">Search history</string>
 </resources>
